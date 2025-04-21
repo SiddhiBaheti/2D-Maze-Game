@@ -30,7 +30,28 @@
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
+			<Add directory="header" />
+			<Add directory="C:/SFML-3.0.0/include" />
 		</Compiler>
+		<Linker>
+			<Add library="C:/SFML-3.0.0/lib/libsfml-graphics.a" />
+			<Add library="C:/SFML-3.0.0/lib/libsfml-window.a" />
+			<Add library="C:/SFML-3.0.0/lib/libsfml-system.a" />
+			<Add directory="C:/SFML-3.0.0/lib" />
+		</Linker>
+		<Unit filename="header/Characters.h" />
+		<Unit filename="header/Collectibles.h" />
+		<Unit filename="header/Enemy.h" />
+		<Unit filename="header/Maze.h" />
+		<Unit filename="header/Movement.h" />
+		<Unit filename="header/Player.h" />
+		<Unit filename="src/Characters.cpp" />
+		<Unit filename="src/Collectibles.cpp" />
+		<Unit filename="src/Enemy.cpp" />
+		<Unit filename="src/Maze.cpp" />
+		<Unit filename="src/Movement.cpp" />
+		<Unit filename="src/Player.cpp" />
+		<Unit filename="src/main.cpp" />
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>

@@ -8,7 +8,7 @@ class Maze;
 
 class Enemy: public Characters{
 public:
-    Enemy();
+    Enemy(int x, int y);
     void moveEnemy(Maze &maze);
 };
 

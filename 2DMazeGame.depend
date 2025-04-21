@@ -1,14 +1,16 @@
 # depslib dependency file v1.0
-1744969330 source:d:\mine\bsc (hons)\year 2\semester ii\data structures using c++\final project\2dmazegame\src\main.cpp
-	<iostream>
-	<string>
-	<conio.h>
-	<cstdlib>
-	<ctime>
+1745240258 source:d:\mine\bsc (hons)\year 2\semester ii\data structures using c++\final project\2dmazegame\src\main.cpp
+	<SFML/Graphics.hpp>
 	"Maze.h"
+	"Characters.h"
 	"Player.h"
-	"Enemy.h"
 	"Movement.h"
+	"Enemy.h"
+	"Collectibles.h"
+	<iostream>
+	<vector>
+	<algorithm>
+	<fstream>
 
 1733935265 c:\sfml-3.0.0\include\sfml\graphics.hpp
 	<SFML/Graphics/BlendMode.hpp>
@@ -519,48 +521,53 @@
 1734196663 c:\sfml-3.0.0\include\sfml\system\sleep.hpp
 	<SFML/System/Export.hpp>
 
-1744969157 source:d:\mine\bsc (hons)\year 2\semester ii\data structures using c++\final project\2dmazegame\src\collectibles.cpp
+1744982785 source:d:\mine\bsc (hons)\year 2\semester ii\data structures using c++\final project\2dmazegame\src\collectibles.cpp
 	"Collectibles.h"
 
-1744967748 d:\mine\bsc (hons)\year 2\semester ii\data structures using c++\final project\2dmazegame\header\collectibles.h
+1744982785 d:\mine\bsc (hons)\year 2\semester ii\data structures using c++\final project\2dmazegame\header\collectibles.h
 
-1744968883 d:\mine\bsc (hons)\year 2\semester ii\data structures using c++\final project\2dmazegame\header\maze.h
+1745133441 d:\mine\bsc (hons)\year 2\semester ii\data structures using c++\final project\2dmazegame\header\maze.h
 	<string>
+	<SFML/Graphics.hpp>
 	"Collectibles.h"
 	"Player.h"
 
-1744979023 d:\mine\bsc (hons)\year 2\semester ii\data structures using c++\final project\2dmazegame\header\player.h
+1745224653 d:\mine\bsc (hons)\year 2\semester ii\data structures using c++\final project\2dmazegame\header\player.h
+	"Characters.h"
+	<string>
+
+1744982785 d:\mine\bsc (hons)\year 2\semester ii\data structures using c++\final project\2dmazegame\header\characters.h
+
+1745150550 d:\mine\bsc (hons)\year 2\semester ii\data structures using c++\final project\2dmazegame\header\enemy.h
 	"Characters.h"
 
-1744978373 d:\mine\bsc (hons)\year 2\semester ii\data structures using c++\final project\2dmazegame\header\characters.h
-
-1744979085 d:\mine\bsc (hons)\year 2\semester ii\data structures using c++\final project\2dmazegame\header\enemy.h
-	"Characters.h"
-
-1744968148 d:\mine\bsc (hons)\year 2\semester ii\data structures using c++\final project\2dmazegame\header\movement.h
+1744982785 d:\mine\bsc (hons)\year 2\semester ii\data structures using c++\final project\2dmazegame\header\movement.h
 	"Maze.h"
 	"Player.h"
 	<string>
 
-1744969194 source:d:\mine\bsc (hons)\year 2\semester ii\data structures using c++\final project\2dmazegame\src\maze.cpp
+1745208109 source:d:\mine\bsc (hons)\year 2\semester ii\data structures using c++\final project\2dmazegame\src\maze.cpp
 	"Maze.h"
 	"Enemy.h"
 	<iostream>
+	<fstream>
 
-1744969247 source:d:\mine\bsc (hons)\year 2\semester ii\data structures using c++\final project\2dmazegame\src\movement.cpp
+1745134859 source:d:\mine\bsc (hons)\year 2\semester ii\data structures using c++\final project\2dmazegame\src\movement.cpp
 	"Movement.h"
 	"Maze.h"
 	"Player.h"
 
-1744978713 source:d:\mine\bsc (hons)\year 2\semester ii\data structures using c++\final project\2dmazegame\src\characters.cpp
+1745202856 source:d:\mine\bsc (hons)\year 2\semester ii\data structures using c++\final project\2dmazegame\src\characters.cpp
 	"Characters.h"
 
-1744979135 source:d:\mine\bsc (hons)\year 2\semester ii\data structures using c++\final project\2dmazegame\src\enemy.cpp
+1745151370 source:d:\mine\bsc (hons)\year 2\semester ii\data structures using c++\final project\2dmazegame\src\enemy.cpp
 	"Enemy.h"
 	"Maze.h"
 	<cstdlib>
 
-1744979228 source:d:\mine\bsc (hons)\year 2\semester ii\data structures using c++\final project\2dmazegame\src\player.cpp
+1745230754 source:d:\mine\bsc (hons)\year 2\semester ii\data structures using c++\final project\2dmazegame\src\player.cpp
 	"Player.h"
 	<iostream>
+	<string>
+	<fstream>
 
